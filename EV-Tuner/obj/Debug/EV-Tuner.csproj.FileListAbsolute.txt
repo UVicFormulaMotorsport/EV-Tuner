@@ -1,0 +1,11 @@
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\bin\Debug\EV-Tuner.exe.config
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\bin\Debug\EV-Tuner.exe
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\bin\Debug\EV-Tuner.pdb
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\obj\Debug\EV-Tuner.csproj.AssemblyReference.cache
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\obj\Debug\EV-Tuner.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\obj\Debug\EV_Tuner.Form1.resources
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\obj\Debug\EV_Tuner.Properties.Resources.resources
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\obj\Debug\EV-Tuner.csproj.GenerateResource.cache
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\obj\Debug\EV-Tuner.csproj.CoreCompileInputs.cache
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\obj\Debug\EV-Tuner.exe
+C:\Users\Mohak\Desktop\FSAE\EV-Tuner\EV-Tuner\obj\Debug\EV-Tuner.pdb
