@@ -118,32 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="border" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="motor_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\motor_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Poppins_Black" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-Black.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Poppins_BlackItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-BlackItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Poppins_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-Bold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Poppins_BoldItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-BoldItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Poppins_ExtraBold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-ExtraBold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Poppins_ExtraBoldItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-ExtraBoldItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Poppins_ExtraLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-ExtraLight.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Poppins_ThinItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-ThinItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Poppins_ExtraLightItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Poppins-ExtraLightItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -154,37 +130,64 @@
   <data name="Poppins_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Poppins-Light.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Poppins_LightItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-LightItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Poppins_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-Medium.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Poppins_MediumItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-MediumItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Poppins_ExtraLight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-ExtraLight.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Poppins_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Poppins-Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Poppins_SemiBold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-SemiBold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Poppins_SemiBoldItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-SemiBoldItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Poppins_MediumItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-MediumItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Poppins_Thin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Poppins-Thin.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Poppins_ThinItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Poppins-ThinItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Poppins_BoldItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-BoldItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Poppins_BlackItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-BlackItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="UVFR_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UVFR_Icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Poppins_ExtraBoldItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-ExtraBoldItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Poppins_SemiBold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-SemiBold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Poppins_ExtraBold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-ExtraBold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Poppins_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-Medium.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Vogue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vogue.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Poppins_SemiBoldItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-SemiBoldItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Poppins_LightItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-LightItalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Poppins_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-Bold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="white_texture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white_texture.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Poppins_Black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poppins-Black.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="motor_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\motor_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wavy-line-isolated-on-white-background-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wavy-line-isolated-on-white-background-free-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

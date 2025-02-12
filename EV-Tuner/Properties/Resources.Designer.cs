@@ -283,6 +283,16 @@ namespace EV_Tuner.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap wavy_line_isolated_on_white_background_free_vector {
+            get {
+                object obj = ResourceManager.GetObject("wavy-line-isolated-on-white-background-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap white_texture {
             get {
                 object obj = ResourceManager.GetObject("white_texture", resourceCulture);

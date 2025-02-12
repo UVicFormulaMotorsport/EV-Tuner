@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Settings.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,12 +95,10 @@
     <None Include="Resources\Poppins-SemiBoldItalic.ttf" />
     <None Include="Resources\Poppins-Thin.ttf" />
     <None Include="Resources\Poppins-ThinItalic.ttf" />
+    <None Include="Resources\Vogue.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\UVFR_Icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\motor_image.png" />
@@ -109,6 +108,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UVFR_Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wavy-line-isolated-on-white-background-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wavy-line-isolated-on-white-background-free-vector1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

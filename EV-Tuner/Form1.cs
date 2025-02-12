@@ -13,6 +13,9 @@ namespace EV_Tuner
     public partial class Form1 : Form
     {
         Timer rotationTimer;
+        int x = -106;
+        int y = 221;
+        bool reversing = false;
 
         public Form1()
         {
@@ -38,16 +41,13 @@ namespace EV_Tuner
             pictureBox2.BackColor = Color.Transparent;
 
             rotationTimer = new Timer();
-            rotationTimer.Interval = 150;    //you can change it to handle smoothness
+            rotationTimer.Interval = 1;    //you can change it to handle smoothness
             rotationTimer.Tick += rotationTimer_Tick;
 
             //create pictutrebox events
             rotationTimer.Start();
-        }
 
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
+            Settings.Testing();
         }
     }
 }

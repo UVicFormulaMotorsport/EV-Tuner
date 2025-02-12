@@ -163,7 +163,6 @@
             this.tabPage1.Size = new System.Drawing.Size(907, 690);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "General";
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // pictureBox4
             // 
@@ -343,7 +342,7 @@
             this.pictureBox7.BackgroundImage = global::EV_Tuner.Properties.Resources.white_texture;
             this.pictureBox7.Location = new System.Drawing.Point(-4, 55);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(915, 10);
+            this.pictureBox7.Size = new System.Drawing.Size(813, 10);
             this.pictureBox7.TabIndex = 29;
             this.pictureBox7.TabStop = false;
             // 
@@ -406,7 +405,7 @@
             this.panel1.Controls.Add(this.textBox17);
             this.panel1.Controls.Add(this.textBox9);
             this.panel1.Controls.Add(this.label14);
-            this.panel1.Location = new System.Drawing.Point(377, 72);
+            this.panel1.Location = new System.Drawing.Point(275, 72);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(508, 786);
             this.panel1.TabIndex = 25;
