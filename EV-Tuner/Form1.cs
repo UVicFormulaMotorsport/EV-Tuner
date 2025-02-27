@@ -47,7 +47,18 @@ namespace EV_Tuner
             //create pictutrebox events
             rotationTimer.Start();
 
-            Settings.Testing();
+            //Settings.Testing();
+            //SendCANMessage.Initialize();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //SendCANMessage.ReadExample();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //SendCANMessage.SendMessage();
         }
     }
 }
