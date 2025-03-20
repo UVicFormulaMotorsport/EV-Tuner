@@ -16,11 +16,15 @@ namespace EV_Tuner
         int x = -106;
         int y = 221;
         bool reversing = false;
+        private static Form1 _instance;
 
         public Form1()
         {
             InitializeComponent();
+            _instance = this;
         }
+
+        public static Form1 Instance => _instance;
 
         void rotationTimer_Tick(object sender, EventArgs e)
         {
@@ -48,17 +52,28 @@ namespace EV_Tuner
             rotationTimer.Start();
 
             //Settings.Testing();
-            //SendCANMessage.Initialize();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             //SendCANMessage.ReadExample();
+            SendCANMessage.ReadMessage();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             //SendCANMessage.SendMessage();
+        }
+
+        public void changeStatus(String message)
+        {
+            textBox1.Text = message;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SendCANMessage.Initialize();
+
         }
     }
 }
