@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Peak.Can.Basic;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -71,7 +72,23 @@ namespace EV_Tuner
 
         private void button3_Click(object sender, EventArgs e)
         {
-            SendCANMessage.Initialize();
+            Initialize();
+
+        }
+        public static void Initialize()
+        {
+            PcanChannel channel = PcanChannel.Usb01;
+            PcanStatus result = Api.Initialize(channel, Bitrate.Pcan250);
+
+            if (result == PcanStatus.OK)
+            {
+                Form1.Instance.changeStatus("CAN Connection Established");
+            }
+            else
+            {
+                Form1.Instance.changeStatus("CAN Connection Error");
+                Console.WriteLine("Error");
+            }
 
         }
     }

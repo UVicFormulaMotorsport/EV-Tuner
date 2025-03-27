@@ -19,7 +19,7 @@ namespace EV_Tuner
         Form1 mainform;
         private TPCANHandle m_PcanHandle;
 
-        public static void Initialize()
+        /*public static void Initialize()
         {
             PcanChannel channel = PcanChannel.Usb01;
             PcanStatus result = Api.Initialize(channel, Bitrate.Pcan250);
@@ -34,7 +34,7 @@ namespace EV_Tuner
                 Console.WriteLine("Error");
             }
 
-        }
+        }*/
 
         private static void ReadMessage()
         {
