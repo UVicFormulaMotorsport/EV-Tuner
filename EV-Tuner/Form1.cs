@@ -56,8 +56,7 @@ namespace EV_Tuner
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //SendCANMessage.ReadExample();
-            SendCANMessage.ReadMessage();
+            SendCANMessage.ReadExample();
         }
 
         private void button2_Click(object sender, EventArgs e)
