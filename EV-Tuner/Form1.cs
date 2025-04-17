@@ -57,12 +57,12 @@ namespace EV_Tuner
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SendCANMessage.ReadExample();
+            CanHandler.ReadExample();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //SendCANMessage.SendMessage();
+            CanHandler.SendMessage();
         }
 
         public void changeStatus(String message)
@@ -72,24 +72,7 @@ namespace EV_Tuner
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Initialize();
-
-        }
-        public static void Initialize()
-        {
-            PcanChannel channel = PcanChannel.Usb01;
-            PcanStatus result = Api.Initialize(channel, Bitrate.Pcan250);
-
-            if (result == PcanStatus.OK)
-            {
-                Form1.Instance.changeStatus("CAN Connection Established");
-            }
-            else
-            {
-                Form1.Instance.changeStatus("CAN Connection Error");
-                Console.WriteLine("Error");
-            }
-
+            CanHandler.Initialize();
         }
     }
 }

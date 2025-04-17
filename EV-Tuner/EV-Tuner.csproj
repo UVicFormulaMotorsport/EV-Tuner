@@ -182,7 +182,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DrivingMode.cs" />
-    <Compile Include="SendCANMessage.cs" />
+    <Compile Include="CanHandler.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
