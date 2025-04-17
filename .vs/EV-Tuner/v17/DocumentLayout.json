@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:ev-tuner\\canhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\iammo\\Documents\\UVFR\\EV-Tuner\\ev-tuner\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:ev-tuner\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\iammo\\Documents\\UVFR\\EV-Tuner\\ev-tuner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:ev-tuner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\iammo\\Documents\\UVFR\\EV-Tuner\\ev-tuner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:ev-tuner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\iammo\\Documents\\UVFR\\EV-Tuner\\ev-tuner\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:ev-tuner\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\iammo\\Documents\\UVFR\\EV-Tuner\\ev-tuner\\drivingmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,13 +67,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\iammo\\Documents\\UVFR\\EV-Tuner\\EV-Tuner\\Form1.cs",
               "RelativeDocumentMoniker": "EV-Tuner\\Form1.cs",
               "ToolTip": "C:\\Users\\iammo\\Documents\\UVFR\\EV-Tuner\\EV-Tuner\\Form1.cs",
               "RelativeToolTip": "EV-Tuner\\Form1.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAMwE0AAAABAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAMwEUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T13:55:09.501Z",
               "EditorCaption": ""
@@ -86,14 +86,14 @@
               "RelativeDocumentMoniker": "EV-Tuner\\CanHandler.cs",
               "ToolTip": "C:\\Users\\iammo\\Documents\\UVFR\\EV-Tuner\\EV-Tuner\\CanHandler.cs",
               "RelativeToolTip": "EV-Tuner\\CanHandler.cs",
-              "ViewState": "AQIAANwAAAAAAAAAAAAqwO0AAAAxAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAqwIkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T14:12:11.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Settings.cs",
               "DocumentMoniker": "C:\\Users\\iammo\\Documents\\UVFR\\EV-Tuner\\EV-Tuner\\Settings.cs",
               "RelativeDocumentMoniker": "EV-Tuner\\Settings.cs",
@@ -101,12 +101,11 @@
               "RelativeToolTip": "EV-Tuner\\Settings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:55:06.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T13:55:06.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\iammo\\Documents\\UVFR\\EV-Tuner\\EV-Tuner\\Form1.cs",
               "RelativeDocumentMoniker": "EV-Tuner\\Form1.cs",

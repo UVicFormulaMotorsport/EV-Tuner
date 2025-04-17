@@ -65,8 +65,9 @@ namespace EV_Tuner
             CanHandler.SendMessage();
         }
 
-        public void changeStatus(String message)
+        public void changeStatus(String ID, String message)
         {
+            textBox2.Text = ID;
             textBox1.Text = message;
         }
 

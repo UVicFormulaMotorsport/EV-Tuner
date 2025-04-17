@@ -64,6 +64,21 @@ namespace EV_Tuner
                     if (true)
                     {
                         Console.WriteLine(msg.ToString());
+                        string msgText = $"Data: ";
+                        for (int i = 0; i < msg.Length; i++)
+                        {
+                            msgText += $"{msg.Data[i]} ";
+                        }
+                        string idText = $"ID: ";
+                        if ((msg.MsgType & MessageType.Extended) == MessageType.Extended)
+                        {
+                            idText += $"{msg.ID:X8}";
+                        }
+                        else
+                        {
+                            idText += $"{msg.ID:X4}";
+                        }
+                        Form1.Instance.changeStatus(idText, msgText);
                         ProcessMessage(msg);
                     }
                 }
@@ -110,7 +125,7 @@ namespace EV_Tuner
                 //
                 PcanMessage msg = new PcanMessage()
                 {
-                    ID = 0x520,
+                    ID = 0x64,
                     DLC = 1,
                     MsgType = MessageType.Standard,
                     Data = new byte[] {0x01}
@@ -235,7 +250,7 @@ namespace EV_Tuner
                 msgText += $"{msg.Data[i]} ";
 
             Console.WriteLine(msgText);
-            Form1.Instance.changeStatus(msgText);
+            //Form1.Instance.changeStatus(msgText);
         }
     }
 }
