@@ -78,7 +78,84 @@ namespace EV_Tuner
 
         private void button4_Click(object sender, EventArgs e)
         {
+            PcanChannel channel = PcanChannel.Usb01;
+            PcanStatus result = Api.Initialize(channel, Bitrate.Pcan250);
+            if (result != PcanStatus.OK)
+            {
+                // An error occurred
+                Api.GetErrorText(result, out var errorText);
+                Console.WriteLine(errorText);
+            }
+            else
+            {
+                // A success message on connection is shown.
+                Console.WriteLine($"The hardware represented by the handle {channel} was successfully initialized.");
+                PcanMessage msg = new PcanMessage()
+                {
+                    ID = 0x520,
+                    DLC = 1,
+                    MsgType = MessageType.Standard,
+                    Data = new byte[] { 0x01 }
+                };
 
+                result = Api.Write(channel, msg);
+                System.Threading.Thread.Sleep(1);
+                if (result != PcanStatus.OK)
+                {
+                    // An error occurred
+                    Api.GetErrorText(result, out var errorText);
+                    Console.WriteLine(errorText);
+                    Console.WriteLine($"Application terminated.");
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine($"Message was successfully sent.");
+                }
+                result = Api.Read(channel, out msg);
+                if (result == PcanStatus.OK)
+                {
+                    // Process the received message
+                    //
+                    if (true)
+                    {
+                        Console.WriteLine(msg.ToString());
+                        string msgText = $"Data: ";
+                        for (int i = 0; i < msg.Length; i++)
+                        {
+                            msgText += $"{msg.Data[i]} ";
+                        }
+                        string idText = $"ID: ";
+                        if ((msg.MsgType & MessageType.Extended) == MessageType.Extended)
+                        {
+                            idText += $"{msg.ID:X8}";
+                        }
+                        else
+                        {
+                            idText += $"{msg.ID:X4}";
+                        }
+                        Form1.Instance.changeStatus(idText, msgText);
+                        ProcessMessage(msg);
+                    }
+                }
+                //draft starts here
+                if($"{msg.Data[5]} " == $"0" && $"{msg.Data[6]} " == $"1" && $"{msg.Data[7]} " == $"0")
+                { 
+                    Console.WriteLine($"VCU Firmware Accpetable"); 
+                }
+                // ends here
+                result = Api.Uninitialize(channel);
+                if (result != PcanStatus.OK)
+                {
+                    // An error occurred
+                    Api.GetErrorText(result, out var errorText);
+                    Console.WriteLine(errorText);
+                }
+                else
+                {
+                    Console.WriteLine($"The hardware represented by the handle {channel} was successfully finalized.");
+                }
+            }
         }
     }
 }

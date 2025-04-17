@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -109,7 +109,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -172,6 +171,16 @@
             this.tabPage1.Size = new System.Drawing.Size(907, 696);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "General";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(190, 171);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(239, 62);
+            this.button4.TabIndex = 31;
+            this.button4.Text = "Check";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
@@ -248,7 +257,6 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::EV_Tuner.Properties.Resources.white_texture;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(1489, 0);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox2.Name = "pictureBox2";
@@ -272,7 +280,6 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(1497, 29);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(339, 330);
@@ -371,7 +378,7 @@
             this.pictureBox7.BackgroundImage = global::EV_Tuner.Properties.Resources.white_texture;
             this.pictureBox7.Location = new System.Drawing.Point(-4, 55);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(658, 10);
+            this.pictureBox7.Size = new System.Drawing.Size(641, 10);
             this.pictureBox7.TabIndex = 29;
             this.pictureBox7.TabStop = false;
             // 
@@ -434,7 +441,7 @@
             this.panel1.Controls.Add(this.textBox17);
             this.panel1.Controls.Add(this.textBox9);
             this.panel1.Controls.Add(this.label14);
-            this.panel1.Location = new System.Drawing.Point(120, 72);
+            this.panel1.Location = new System.Drawing.Point(103, 72);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(508, 786);
             this.panel1.TabIndex = 25;
@@ -965,8 +972,6 @@
             // motorImage
             // 
             this.motorImage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.motorImage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("motorImage.BackgroundImage")));
-            this.motorImage.Image = ((System.Drawing.Image)(resources.GetObject("motorImage.Image")));
             this.motorImage.Location = new System.Drawing.Point(4, 37);
             this.motorImage.Name = "motorImage";
             this.motorImage.Size = new System.Drawing.Size(330, 329);
@@ -1031,16 +1036,6 @@
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(190, 171);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(239, 62);
-            this.button4.TabIndex = 31;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1049,7 +1044,6 @@
             this.ClientSize = new System.Drawing.Size(1245, 627);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.tabControl1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "EV Tuner";
             this.Load += new System.EventHandler(this.Form1_Load);

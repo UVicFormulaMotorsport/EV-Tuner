@@ -82,7 +82,7 @@ namespace EV_Tuner
                         ProcessMessage(msg);
                     }
                 }
-
+                // here
                 result = Api.Uninitialize(channel);
                 if (result != PcanStatus.OK)
                 {
