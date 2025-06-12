@@ -16,8 +16,8 @@ namespace EV_Tuner
         Timer rotationTimer;
         int x = -106;
         int y = 221;
-        bool reversing = false;
         private static Form1 _instance;
+        public Settings currentSettings = new Settings(); // needs to change when connecting to CAN actually auto imports current settings
 
         public Form1()
         {
@@ -32,6 +32,81 @@ namespace EV_Tuner
             Image flipImage = motorImage.Image;
             flipImage.RotateFlip(RotateFlipType.Rotate90FlipXY);
             motorImage.Image = flipImage;
+        }
+
+        private void loadSettings()
+        {
+            // needs to be updated every time new settings are added
+            textBox6.Text = currentSettings.maxElectricalPower.ToString();
+            textBox7.Text = currentSettings.maxMotorTorque.ToString();
+            textBox8.Text = currentSettings.absoluteMaxAccumulatorCurrent.ToString();
+            textBox11.Text = currentSettings.maxAccumulatorCurrent5s.ToString();
+            textBox10.Text = currentSettings.absoluteMaxMotorRPM.ToString();
+            textBox9.Text = currentSettings.regenRPMThreshold.ToString();
+            textBox17.Text = currentSettings.minAPPSOffset.ToString();
+            textBox16.Text = currentSettings.maxAPPSOffset.ToString();
+            textBox15.Text = currentSettings.minAPPSValue.ToString();
+            textBox14.Text = currentSettings.maxAPPSValue.ToString();
+            textBox13.Text = currentSettings.minBPSValue.ToString();
+            textBox12.Text = currentSettings.maxBPSValue.ToString();
+            textBox19.Text = currentSettings.appsTOP.ToString();
+            textBox21.Text = currentSettings.appsBOTTOM.ToString();
+            textBox23.Text = currentSettings.appsPlausibilityCheckActiviationThreshold.ToString();
+            textBox25.Text = currentSettings.bpsPlausibilityCheckActiviationThreshold.ToString();
+            textBox27.Text = currentSettings.appsPlausibilityCheckRecoveryThreshold.ToString();
+            textBox29.Text = currentSettings.bpsPlausibilityCheckRecoveryThreshold.ToString();
+            textBox28.Text = currentSettings.numberDrivingModes.ToString();
+            textBox26.Text = currentSettings.drivingLoopPeriod.ToString();
+            textBox24.Text = currentSettings.regenSOCThreshold.ToString();
+            textBox22.Text = currentSettings.someBoolFlags.ToString();
+        }
+
+        private void overwriteSettings()
+        {
+            string message1 = "Warning: This will overwrite saved data.";
+            string caption1 = "Warning";
+            MessageBoxButtons buttons1 = MessageBoxButtons.OKCancel;
+            MessageBoxIcon icon1 = MessageBoxIcon.Exclamation;
+            var result = MessageBox.Show(message1, caption1, buttons1, icon1);
+
+            // needs to be updated every time new settings are added
+
+            if (result == DialogResult.OK)
+            {
+                try
+                {
+                    currentSettings.maxElectricalPower = int.Parse(textBox6.Text);
+                    currentSettings.maxMotorTorque = int.Parse(textBox7.Text);
+                    currentSettings.absoluteMaxAccumulatorCurrent = int.Parse(textBox8.Text);
+                    currentSettings.maxAccumulatorCurrent5s = int.Parse(textBox11.Text);
+                    currentSettings.absoluteMaxMotorRPM = int.Parse(textBox10.Text);
+                    currentSettings.regenRPMThreshold = int.Parse(textBox9.Text);
+                    currentSettings.minAPPSOffset = int.Parse(textBox17.Text);
+                    currentSettings.maxAPPSOffset = int.Parse(textBox16.Text);
+                    currentSettings.minAPPSValue = int.Parse(textBox15.Text);
+                    currentSettings.maxAPPSValue = int.Parse(textBox14.Text);
+                    currentSettings.minBPSValue = int.Parse(textBox13.Text);
+                    currentSettings.maxBPSValue = int.Parse(textBox12.Text);
+                    currentSettings.appsTOP = int.Parse(textBox19.Text);
+                    currentSettings.appsBOTTOM = int.Parse(textBox21.Text);
+                    currentSettings.appsPlausibilityCheckActiviationThreshold = int.Parse(textBox23.Text);
+                    currentSettings.bpsPlausibilityCheckActiviationThreshold = int.Parse(textBox25.Text);
+                    currentSettings.appsPlausibilityCheckRecoveryThreshold = int.Parse(textBox27.Text);
+                    currentSettings.bpsPlausibilityCheckRecoveryThreshold = int.Parse(textBox29.Text);
+                    currentSettings.numberDrivingModes = int.Parse(textBox28.Text);
+                    currentSettings.drivingLoopPeriod = int.Parse(textBox26.Text);
+                    currentSettings.regenSOCThreshold = int.Parse(textBox24.Text);
+                    currentSettings.someBoolFlags = int.Parse(textBox22.Text);
+                }
+                catch (Exception e)
+                {
+                    string message = "Make sure that all data fields are of the right type.";
+                    string caption = "Error Detected in Input";
+                    MessageBoxButtons buttons = MessageBoxButtons.OK;
+                    MessageBoxIcon icon = MessageBoxIcon.Error;
+                    MessageBox.Show(message, caption, buttons, icon);
+                }
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -52,7 +127,8 @@ namespace EV_Tuner
             //create pictutrebox events
             rotationTimer.Start();
 
-            //Settings.Testing();
+            // Load Default Settings
+            loadSettings();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -74,6 +150,29 @@ namespace EV_Tuner
         private void button3_Click(object sender, EventArgs e)
         {
             CanHandler.Initialize();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            currentSettings = DataHandler.Import();
+            loadSettings();
+            Console.WriteLine("Data Imported");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            DataHandler.Export(currentSettings);
+            Console.WriteLine("Data Exported");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            overwriteSettings();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            loadSettings();
         }
     }
 }
