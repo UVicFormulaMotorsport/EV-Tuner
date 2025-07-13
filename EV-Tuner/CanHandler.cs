@@ -95,6 +95,8 @@ namespace EV_Tuner
                     Console.WriteLine($"The hardware represented by the handle {channel} was successfully finalized.");
                 }
             }
+            //Read message as soon as connect to VCU
+            Console.WriteLine("Get motor settings");
         }
 
         private static void ReadMessage()

@@ -18,7 +18,7 @@ namespace EV_Tuner
         int y = 221;
         private static Form1 _instance;
         public Settings currentSettings = new Settings(); // needs to change when connecting to CAN actually auto imports current settings
-
+        
         public Form1()
         {
             InitializeComponent();
