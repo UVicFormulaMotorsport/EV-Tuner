@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:EV-Tuner\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\CanHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:EV-Tuner\\CanHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Setting_Variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EV-Tuner\\Setting_Variable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EV-Tuner\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:EV-Tuner\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\CanHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EV-Tuner\\CanHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\ev-tuner\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:ev-tuner\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EV-Tuner\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:EV-Tuner\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EV-Tuner\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\DrivingMode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EV-Tuner\\DrivingMode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\ev-tuner\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ev-tuner\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\DrivingMode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E415F1-A37C-44FE-B23A-DBB015CB6DBB}|EV-Tuner\\EV-Tuner.csproj|solutionrelative:EV-Tuner\\DrivingMode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,33 +46,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Setting_Variable.cs",
               "DocumentMoniker": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Setting_Variable.cs",
               "RelativeDocumentMoniker": "EV-Tuner\\Setting_Variable.cs",
               "ToolTip": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Setting_Variable.cs",
               "RelativeToolTip": "EV-Tuner\\Setting_Variable.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T20:35:51.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "EV-Tuner\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Form1.Designer.cs",
               "RelativeToolTip": "EV-Tuner\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOgEAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T05:45:57.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DrivingMode.cs",
               "DocumentMoniker": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\DrivingMode.cs",
               "RelativeDocumentMoniker": "EV-Tuner\\DrivingMode.cs",
@@ -80,57 +80,59 @@
               "RelativeToolTip": "EV-Tuner\\DrivingMode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T14:01:02.749Z"
+              "WhenOpened": "2025-02-12T14:01:02.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Form1.cs",
               "RelativeDocumentMoniker": "EV-Tuner\\Form1.cs",
               "ToolTip": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Form1.cs",
               "RelativeToolTip": "EV-Tuner\\Form1.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAjwCcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAWwB8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T13:55:09.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CanHandler.cs",
               "DocumentMoniker": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\CanHandler.cs",
               "RelativeDocumentMoniker": "EV-Tuner\\CanHandler.cs",
               "ToolTip": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\CanHandler.cs",
               "RelativeToolTip": "EV-Tuner\\CanHandler.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAPYAAAAAAAAAAAArwA0BAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T14:12:11.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Settings.cs",
               "DocumentMoniker": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Settings.cs",
               "RelativeDocumentMoniker": "EV-Tuner\\Settings.cs",
               "ToolTip": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Settings.cs",
               "RelativeToolTip": "EV-Tuner\\Settings.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T13:55:06.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "EV-Tuner\\Properties\\Resources.resx",
               "ToolTip": "C:\\Users\\uvicf\\OneDrive\\Documents\\EV-Tuner\\EV-Tuner\\Properties\\Resources.resx",
               "RelativeToolTip": "EV-Tuner\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-02-12T13:55:09.509Z"
+              "WhenOpened": "2025-02-12T13:55:09.509Z",
+              "EditorCaption": ""
             }
           ]
         }

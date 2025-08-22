@@ -101,14 +101,29 @@ namespace EV_Tuner
 
         private static void ReadMessage()
         {
+            PcanChannel channel = PcanChannel.Usb01;
+            PcanStatus result = Api.Read(channel, out PcanMessage msg);
+            Task.Run(() =>
+            {
+                while (result == PcanStatus.OK)
+                {
+                    ProcessMessage(msg);
+                }
+                // An error occurred
+                if (result != PcanStatus.OK)
+                {
+                    Api.GetErrorText(result, out var errorText);
+                    Console.WriteLine(errorText);
+                    System.Threading.Thread.Sleep(10);
+                }
 
+                System.Threading.Thread.Sleep(1);
+            });
         }
 
         public static void SendMessage()
         {
             PcanChannel channel = PcanChannel.Usb01;
-
-
             PcanStatus result = Api.Initialize(channel, Bitrate.Pcan250);
             if (result != PcanStatus.OK)
             {
