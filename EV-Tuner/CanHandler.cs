@@ -121,6 +121,29 @@ namespace EV_Tuner
             });
         }
 
+        private static void ProcessMessage(PcanMessage msg)
+        {
+            switch (msg.ID)
+            {
+                case 0x520:
+                    // Extract 32-bit value from CAN message data
+                    uint bitFieldValue = BitConverter.ToUInt32(msg.Data, 0);
+                    
+                    VCUBitField bitField = new VCUBitField
+                    {
+                        RawValue = bitFieldValue,
+                        Timestamp = DateTime.Now
+                    };
+                    BitFieldReceived?.Invoke(bitField);
+                    break;
+                    
+                default:
+                    // Handle other CAN messages as needed
+                    ProcessOtherMessage(msg);
+                    break;
+            }
+        }
+
         public static void SendMessage()
         {
             PcanChannel channel = PcanChannel.Usb01;
@@ -145,7 +168,7 @@ namespace EV_Tuner
                     ID = 0x64,
                     DLC = 1,
                     MsgType = MessageType.Standard,
-                    Data = new byte[] {0x01}
+                    Data = new byte[] { 0x01 }
                 };
 
                 for (byte i = 1; i <= 10; i++)
@@ -187,7 +210,7 @@ namespace EV_Tuner
                 {
                     Console.WriteLine($"The hardware represented by the handle {channel} was successfully finalized.");
                 }
-                
+
             }
         }
 
@@ -254,7 +277,7 @@ namespace EV_Tuner
 
         // Formats a CAN frame as string and writes it  to the console output
         //
-        private static void ProcessMessage(PcanMessage msg)
+        private static void ProcessOtherMessage(PcanMessage msg)
         {
             string msgText = $"Type: {msg.MsgType} | ";
             if ((msg.MsgType & MessageType.Extended) == MessageType.Extended)
